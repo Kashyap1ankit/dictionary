@@ -406,3 +406,619 @@
     font-size: 20px;
   }
 }
+
+/*2.media queries for phone desktop site*/
+
+@media (min-width: 401px) and (max-width: 515px) {
+  .navigation {
+    height: 30vh;
+  }
+
+  .navigation .left img {
+    width: 20%;
+    top: 20px;
+    left: 7%;
+  }
+
+  .navigation .red-block {
+    background-color: red;
+    width: 8%;
+  }
+
+  .navigation .orange-block {
+    top: 45%;
+    left: 1%;
+  }
+
+  .navigation .yellow-block {
+    top: 31%;
+  }
+
+  .navigation .blue-block {
+    top: 31%;
+    left: 0%;
+  }
+
+  .navigation .input-area {
+    display: flex;
+    width: 70vw;
+    position: relative;
+    top: -42%;
+    left: 30%;
+  }
+
+  .navigation .input-area input {
+    padding: 2px 5px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 10px;
+  }
+
+  .navigation .search-icon img {
+    width: 20%;
+  }
+
+  .navigation .recent-search {
+    display: flex;
+    /* position: relative;
+    top: -30%;
+    left: 450px; */
+    flex-wrap: wrap;
+    margin-top: -15%;
+  }
+
+  .navigation .recent-search .search-list {
+    font-size: 10px;
+    margin-right: 8%;
+    margin-top: 1%;
+    width: 30%;
+    padding: 2px;
+    border-radius: 5px;
+  }
+
+  .delete-history {
+    position: absolute;
+    top: 26%;
+    left: 90%;
+  }
+
+  .delete-history img {
+    width: 30%;
+    filter: invert(100%);
+  }
+
+  .content .content-card {
+    margin-top: 7%;
+    width: 50%;
+  }
+
+  .content .content-card .small-heading {
+    font-size: 10px;
+    opacity: 0.9;
+    margin-bottom: 3%;
+    font-style: italic;
+  }
+
+  .content .content-card .word-search {
+    font-size: 30px;
+  }
+
+  .content .content-card .part-of-speech {
+    font-size: 10px;
+  }
+
+  .content .content-card .word-meaning {
+    padding: 20px;
+  }
+
+  .content .content-card .word-meaning h3 {
+    font-size: 20px;
+  }
+
+  .content .content-card .word-meaning p {
+    font-size: 13px;
+    margin-bottom: 1%;
+  }
+
+  .content .content-card .example h3 {
+    font-size: 20px;
+  }
+
+  .content .content-card .example p {
+    font-size: 13px;
+    margin-bottom: 1%;
+  }
+  .content .content-card .antonyms {
+    margin-bottom: 2%;
+  }
+
+  .content .content-card .antonyms h3 {
+    font-size: 10px;
+  }
+
+  .content .content-card .synonyms h3 {
+    font-size: 10px;
+  }
+
+  /* Word Not found section */
+
+  .not-found {
+    margin-left: 8%;
+    width: 100vw;
+  }
+
+  .modal {
+    width: 80%;
+  }
+
+  .modal .data {
+    font-size: 13px;
+    padding: 2%;
+  }
+
+  .modal .cross {
+    font-size: 23px;
+  }
+}
+
+/*3.media queries for bigger phone upto 576px; */
+
+@media (min-width: 516px) and (max-width: 576px) {
+  .navigation {
+    height: 30vh;
+  }
+
+  .navigation .left img {
+    width: 18%;
+    top: 20px;
+    left: 7%;
+  }
+
+  .navigation .red-block {
+    background-color: red;
+    width: 8%;
+  }
+
+  .navigation .orange-block {
+    top: 45%;
+    left: 1%;
+  }
+
+  .navigation .yellow-block {
+    top: 30.5%;
+  }
+
+  .navigation .blue-block {
+    top: 30.5%;
+    left: 0%;
+  }
+
+  .navigation .input-area {
+    display: flex;
+    width: 70vw;
+    position: relative;
+    top: -50%;
+    left: 30%;
+  }
+
+  .navigation .input-area input {
+    padding: 2px 5px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 10px;
+  }
+
+  .navigation .search-icon img {
+    width: 20%;
+  }
+
+  .navigation .recent-search {
+    display: flex;
+    /* position: relative;
+    top: -30%;
+    left: 450px; */
+    flex-wrap: wrap;
+    margin-top: -15%;
+  }
+
+  .navigation .recent-search .search-list {
+    font-size: 10px;
+    margin-right: 8%;
+    margin-top: 1%;
+    width: 30%;
+    padding: 2px;
+    border-radius: 5px;
+  }
+
+  .delete-history {
+    position: absolute;
+    top: 26%;
+    left: 90%;
+  }
+
+  .delete-history img {
+    width: 30%;
+    filter: invert(100%);
+  }
+
+  .content .content-card {
+    margin-top: 7%;
+    width: 50%;
+  }
+
+  .content .content-card .small-heading {
+    font-size: 10px;
+    opacity: 0.9;
+    margin-bottom: 3%;
+    font-style: italic;
+  }
+
+  .content .content-card .word-search {
+    font-size: 30px;
+  }
+
+  .content .content-card .part-of-speech {
+    font-size: 10px;
+  }
+
+  .content .content-card .word-meaning {
+    padding: 20px;
+  }
+
+  .content .content-card .word-meaning h3 {
+    font-size: 20px;
+  }
+
+  .content .content-card .word-meaning p {
+    font-size: 13px;
+    margin-bottom: 1%;
+  }
+
+  .content .content-card .example h3 {
+    font-size: 20px;
+  }
+
+  .content .content-card .example p {
+    font-size: 13px;
+    margin-bottom: 1%;
+  }
+  .content .content-card .antonyms {
+    margin-bottom: 2%;
+  }
+
+  .content .content-card .antonyms h3 {
+    font-size: 10px;
+  }
+
+  .content .content-card .synonyms h3 {
+    font-size: 10px;
+  }
+
+  /* Word Not found section */
+
+  .not-found {
+    margin-left: 8%;
+    width: 100vw;
+  }
+
+  .modal {
+    width: 80%;
+  }
+
+  .modal .data {
+    font-size: 13px;
+    padding: 2%;
+  }
+
+  .modal .cross {
+    font-size: 23px;
+  }
+}
+
+/*4.media queries for smaller tabs upto 624px */
+
+@media (min-width: 577px) and (max-width: 632px) {
+  .navigation {
+    height: 30vh;
+  }
+
+  .navigation .left img {
+    width: 18%;
+    top: 20px;
+    left: 7%;
+  }
+
+  .navigation .red-block {
+    background-color: red;
+    width: 8%;
+  }
+
+  .navigation .orange-block {
+    top: 45%;
+    left: 1%;
+  }
+
+  .navigation .yellow-block {
+    top: 29%;
+  }
+
+  .navigation .blue-block {
+    top: 29%;
+    left: 0%;
+  }
+
+  .navigation .input-area {
+    display: flex;
+    width: 70vw;
+    position: relative;
+    top: -50%;
+    left: 30%;
+  }
+
+  .navigation .input-area input {
+    padding: 2px 5px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 10px;
+  }
+
+  .navigation .search-icon img {
+    width: 20%;
+  }
+
+  .navigation .recent-search {
+    display: flex;
+    /* position: relative;
+    top: -30%;
+    left: 450px; */
+    flex-wrap: wrap;
+    margin-top: -13%;
+  }
+
+  .navigation .recent-search .search-list {
+    font-size: 10px;
+    margin-right: 8%;
+    margin-top: 1%;
+    width: 30%;
+    padding: 2px;
+    border-radius: 5px;
+  }
+
+  .delete-history {
+    position: absolute;
+    top: 26%;
+    left: 90%;
+  }
+
+  .delete-history img {
+    width: 30%;
+    filter: invert(100%);
+  }
+
+  .content .content-card {
+    margin-top: 7%;
+    width: 50%;
+  }
+
+  .content .content-card .small-heading {
+    font-size: 10px;
+    opacity: 0.9;
+    margin-bottom: 3%;
+    font-style: italic;
+  }
+
+  .content .content-card .word-search {
+    font-size: 30px;
+  }
+
+  .content .content-card .part-of-speech {
+    font-size: 10px;
+  }
+
+  .content .content-card .word-meaning {
+    padding: 20px;
+  }
+
+  .content .content-card .word-meaning h3 {
+    font-size: 20px;
+  }
+
+  .content .content-card .word-meaning p {
+    font-size: 13px;
+    margin-bottom: 1%;
+  }
+
+  .content .content-card .example h3 {
+    font-size: 20px;
+  }
+
+  .content .content-card .example p {
+    font-size: 13px;
+    margin-bottom: 1%;
+  }
+  .content .content-card .antonyms {
+    margin-bottom: 2%;
+  }
+
+  .content .content-card .antonyms h3 {
+    font-size: 10px;
+  }
+
+  .content .content-card .synonyms h3 {
+    font-size: 10px;
+  }
+
+  /* Word Not found section */
+
+  .not-found {
+    margin-left: 8%;
+    width: 100vw;
+  }
+
+  .modal {
+    width: 80%;
+  }
+
+  .modal .data {
+    font-size: 13px;
+    padding: 2%;
+  }
+
+  .modal .cross {
+    font-size: 23px;
+  }
+}
+
+/*5.media queries for tabs */
+
+@media (min-width: 633px) and (max-width: 1200px) {
+  .navigation {
+    height: 30vh;
+  }
+
+  .navigation .left img {
+    width: 18%;
+    top: 20px;
+    left: 7%;
+  }
+
+  .navigation .red-block {
+    background-color: red;
+    width: 8%;
+  }
+
+  .navigation .orange-block {
+    top: 38%;
+    left: 1%;
+  }
+
+  .navigation .yellow-block {
+    top: 23%;
+  }
+
+  .navigation .blue-block {
+    top: 23%;
+    left: 0%;
+  }
+
+  .navigation .input-area {
+    display: flex;
+    width: 70vw;
+    position: relative;
+    top: -60%;
+    left: 30%;
+  }
+
+  .navigation .input-area input {
+    padding: 2px 5px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 10px;
+  }
+
+  .navigation .search-icon img {
+    width: 20%;
+  }
+
+  .navigation .recent-search {
+    display: flex;
+    /* position: relative;
+    top: -30%;
+    left: 450px; */
+    flex-wrap: wrap;
+    margin-top: -13%;
+  }
+
+  .navigation .recent-search .search-list {
+    font-size: 10px;
+    margin-right: 8%;
+    margin-top: 1%;
+    width: 30%;
+    padding: 2px;
+    border-radius: 5px;
+  }
+
+  .delete-history {
+    position: absolute;
+    top: 24%;
+    left: 90%;
+  }
+
+  .delete-history img {
+    width: 30%;
+    filter: invert(100%);
+  }
+
+  .content .content-card {
+    margin-top: 7%;
+    width: 50%;
+  }
+
+  .content .content-card .small-heading {
+    font-size: 10px;
+    opacity: 0.9;
+    margin-bottom: 3%;
+    font-style: italic;
+  }
+
+  .content .content-card .word-search {
+    font-size: 30px;
+  }
+
+  .content .content-card .part-of-speech {
+    font-size: 10px;
+  }
+
+  .content .content-card .word-meaning {
+    padding: 20px;
+  }
+
+  .content .content-card .word-meaning h3 {
+    font-size: 20px;
+  }
+
+  .content .content-card .word-meaning p {
+    font-size: 13px;
+    margin-bottom: 1%;
+  }
+
+  .content .content-card .example h3 {
+    font-size: 20px;
+  }
+
+  .content .content-card .example p {
+    font-size: 13px;
+    margin-bottom: 1%;
+  }
+  .content .content-card .antonyms {
+    margin-bottom: 2%;
+  }
+
+  .content .content-card .antonyms h3 {
+    font-size: 10px;
+  }
+
+  .content .content-card .synonyms h3 {
+    font-size: 10px;
+  }
+
+  /* Word Not found section */
+
+  .not-found {
+    margin-left: 8%;
+    width: 100vw;
+  }
+
+  .modal {
+    width: 80%;
+  }
+
+  .modal .data {
+    font-size: 13px;
+    padding: 2%;
+  }
+
+  .modal .cross {
+    font-size: 23px;
+  }
+}
